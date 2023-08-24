@@ -1,0 +1,48 @@
+{
+  "basics": {
+    "name": "parthasarathi P",
+    "email": "sarathip846@gmail.com",
+    "phone": "91+6379149691",
+    "degree": "BCA",
+    "summary": "To enhance my knowledge in Networking with highly efficient
+workgroup, by utilizing my talent & skills and aspire to crave my career as Network Engineer ",
+
+    "location": {
+      "address": "7th main road Ram nagar street, velachery, chennai",
+      "postalCode": "600049",
+      "city": "chennai",
+       },
+},
+  "education": [
+    {
+      "institution": "10th std RC High school, Nathampatti","12th std Thiyagaraja Higher scounder school, Srivilliputhur",
+                      "BCA in American college Madurai"
+    
+      "courses": [
+        " CCNA":"Cisco Ceritified Network assoication"
+      ]
+    }
+  ],
+  
+  "publications": [
+    {
+      "name": "Performance evalution of 5G Technology",
+      "publisher": "parthasarathi",
+      "releaseDate": "3/2/203",
+       
+    }
+  ],
+  "skills": [
+    {
+      "name": "c, c++, JAVA , javascript",
+      "level": "beigineer",
+      
+    }
+  ],
+  "languages": [
+    {
+      "language": "Tamil,English",
+      "fluency": "English"
+    }
+  ],
+ 

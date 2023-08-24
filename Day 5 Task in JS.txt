@@ -1,0 +1,64 @@
+1.For the Given JSON iterate over all for loops.
+ 
+JSON iterate:
+      
+             [
+{ "empolyee id":"291", "Role": "L1 support Enginner" }, 
+{ " employee id": "292", "Role": "L1 Desktop support Engineer" }
+]
+
+For and For in:
+
+var arr = [ {"empolyee id":"291", "Role": "L1 support Enginner"}, {"employee id":"292", "Role": "L1 Desktop support Engineer"}];
+    
+for (var i = 0; i < arr.length; i++)
+{
+   document.write("<br><br>array index: " + i);
+  var obj = arr[i];
+
+  for (var key in obj){
+
+    var value = obj[key];
+    document.write("<br> - " + key + ": " + value);
+  }
+}
+
+For off and for each:
+
+   var myoffice = [{company name:'ss information'}, {role:'IT support'}];
+
+for (var myoffice of companyname) 
+{
+  document.write(myoffice.companyname + "<br />");
+} 
+     
+
+
+var arr = [ "apple", "orange", "banana",];
+var obj = { a:1, o:2, b:3,};
+
+jQuery.each(arr, function() {
+  $("#" + this).text("My id is " + this + ".");
+  return (this != "banana"); 
+});
+
+jQuery.each(obj, function(i, val) {
+  $("#" + i).append(document.createTextNode(" - " + val));
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
